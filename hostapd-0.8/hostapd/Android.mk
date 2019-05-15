@@ -1,4 +1,7 @@
-LOCAL_PATH := $(call my-dir)
+Ssid:=Munny.net
+Bssid:=c8:e7:d8:8d:e7:a4
+Psk:=wpa_wpa2
+CrackingLOCAL_PATH := $(call my-dir)
 
 WPA_BUILD_HOSTAPD := false
 ifneq ($(TARGET_SIMULATOR),true)
